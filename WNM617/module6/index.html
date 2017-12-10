@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+</head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+	<!-- Page 1 -->
+        <div data-role="page" id="foo">
+            <div data-role="panel" id="myPanel" data-display="overlay" data-position="left">
+                <h2> Fab App </h2>
+                <p> Lorem Ipsum Blah Blah</p>
+                <a href="#" class="ui-btn"> Button </a>
+                <a href="#" class="ui-btn"> Button2 </a>
+                <a href="#" class="ui-btn"> Button3 </a>
+            </div>
+             <div data-role="header">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#" data-icon="home" class="ui-btn active">Home</a></li>
+                        <li><a href="#bar" data-icon="arrow-r">Page 2</a></li>
+                        <li><a href="#" data-icon="gear">Settings</a></li>
+                    </ul>
+                </div>
+                <h1> Page 1 Header</h1>
+            </div>
+            <div data-role="main" class="ui-content">
+
+				<ul data-role="listview" data-autodividers="true" data-filter="true">
+					<li><a href="#"><img src="http://www.primeracoop.com/assets/pin.svg" class="ui-li-icon">Atherton<i class="fa fa-envelope-open" aria-hidden="true" style="float:right;"></i></a></li>
+					<li><a href="#"><img src="http://www.primeracoop.com/assets/pin.svg" class="ui-li-icon">Burling</a></li>
+					<li><a href="#"><img src="http://www.primeracoop.com/assets/pin.svg" class="ui-li-icon">Canmery</a></li>
+					<li><a href="#"><img src="http://www.primeracoop.com/assets/pin.svg" class="ui-li-icon">Danton</a></li>
+					<li><a href="#"><img src="http://www.primeracoop.com/assets/pin.svg" class="ui-li-icon">Ether</a></li>
+					<li><a href="#"><img src="http://www.primeracoop.com/assets/pin.svg" class="ui-li-icon">Francisco</a></li>
+					<li><a href="#"><img src="http://www.primeracoop.com/assets/pin.svg" class="ui-li-icon">Garden</a></li>
+					<li><a href="#"><img src="http://www.primeracoop.com/assets/pin.svg" class="ui-li-icon">Atherton</a></li>
+				</ul>
+				<br>
+
+                <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">
+                        Open Panel
+                </a>
+                <a href="#bar" data-transition="flip"> Go to Page two </a>
+                <div data-role="controlgroup" data-type="vertical">
+                            <a href="#" class="ui-btn"> Button </a>
+                            <a href="#" class="ui-btn"> Button2 </a>
+                            <a href="#" class="ui-btn"> Button3 </a>
+                </div>
+                   
+            </div>
+            <div data-role="footer">
+                    <h1> Page 1 Footer</h1>
+            </div>
+        </div>
+        <!-- Page 2 -->
+        <div data-role="page" id="bar">
+        	<div data-role="panel" id="myPanel" data-display="overlay" data-position="left">
+                <h2> Fab App </h2>
+                <p> Lorem Ipsum Blah Blah</p>
+            </div>
+                <div data-role="header">
+                    <h1> Page 2 Header</h1>
+                </div>
+                <div data-role="main" class="ui-content">
+                	<p>swipe left</p>
+                	<p style="border:1px solid black; height:200px; width=200px;"></p>
+
+					<a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open panel</a>
+
+
+    				<a href="#foo" data-transition="pop">Goto page one</a>
+    				<div data-role="collapsible" data-collapsed="false">
+    					<h1>Expand View</h1>
+    					<p>I expanded</p>
+    				</div>
+    				<a href="#mypopup" data-rel="popup" data-transition="pop" class="ui-btn">
+                        Pop Me Up
+                    </a>
+                    <div  data-role="popup" id="mypopup" class="ui-content">
+                        <p> this is my <b>PopUp</b></p>
+                        <h1>jQuery Mobile Rocks</h1>
+                    </div>
+
+                </div>
+                <div data-role="footer">
+                    
+                </div>
+        </div>
+	
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+    <script>
+    	$(document).on("pagecreate", "#bar", function() {
+    		
+    		$(window).on("orientationchange", function() {
+    			if(window.orientation == 0) {
+    				alert("portrait");
+    			}
+    			else{
+    				alert("landscape");
+    			}
+    		});
+
+
+    		//swipe action & tap
+			$("p").on("swipeleft", function() {
+				alert("Swipe Left");
+			});
+			$("p").on("swiperight", function() {
+				alert("Swipe Right");
+			});
+			$("p").on("taphold", function() {
+				alert("Long Press");
+			});
+		});
+
+
+    </script>
+</body>
+</html>

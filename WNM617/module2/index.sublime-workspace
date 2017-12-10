@@ -1,0 +1,326 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"user",
+				"userid"
+			],
+			[
+				"session_de",
+				"session_destroy"
+			],
+			[
+				"ex",
+				"explode"
+			],
+			[
+				"json_",
+				"json_decode"
+			],
+			[
+				"sub",
+				"subBtn"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"border-c",
+				"border-collapse"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"table",
+				"table"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "emmet",
+		"selected_items":
+		[
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"math",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pacins",
+				"Package Control: Install Package"
+			],
+			[
+				"pake",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 420.0
+	},
+	"console":
+	{
+		"height": 124.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM617/module2/index.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM617/module 2/index.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM617/module 2/css/style.css",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/index.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/css/style.css",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/cart_add.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/shop.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/cart.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/profile.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/login.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/action_add.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/cart_remove.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/action_remove_update.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/action_remove.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module12/action_add.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/product_list.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/login_action.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/parcials/item_pop.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/parcials/mainnav.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module12/product_list_ajax.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/productlist.js",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/logout_action.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/profile_login",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/db_connect.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module12/productlist.js",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module15/about.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module12/data_feed.php",
+		"/Users/minhaoxie/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module11/parcials/header.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module11/product_item.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module11/product_list.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module11/db_connect.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module10/index.php",
+		"/Users/minhaoxie/Desktop/users.sql",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/json_data.json",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/action_delete.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/action_edit.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/css/style.css",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/index.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/action_add.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/action_delete",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/module_09_01/index.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/module_09_01/json_data.json",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/action.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/shop.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/parcials/mainnav.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/about.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module08/index.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/cart.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module09/product.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module08/parcials/header.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module08/productlist.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module08/productitem.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module08/parcials/footer.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module08/error_log",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module08/php.ini",
+		"/Users/minhaoxie/Documents/Develop/AAU/Index.php",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Project_Cloud/css/style.css",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Project_Cloud/about.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Project_Cloud/shop.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Project_Cloud/cart.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Project_Cloud/index.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Project_Cloud/css/theme.css",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module06/index.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/index.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module04/components.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module04/css/common.css",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module04/css/style.css",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module04/css/theme.css",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module04/css/grid.css",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module01/css/style.css",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module03/index.html",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module01/index.html",
+		"/Users/minhaoxie/Documents/Develop/sftp-config.json",
+		"/Users/minhaoxie/Documents/Develop/AAU/WNM608/Module01/reciepe.html",
+		"/Users/minhaoxie/Desktop/WNM608/Module01/index.html",
+		"/Users/minhaoxie/Desktop/WNM608/sftp-config.json",
+		"/Users/minhaoxie/Desktop/WNM608/Module01/reciepe.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 145.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

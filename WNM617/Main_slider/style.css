@@ -1,0 +1,46 @@
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      height:400px;
+      width: 400px;
+    }
+    .container{
+      width:100%;
+      height:100%;
+    }
+    .slider{
+      background:red;
+      height: 100%;
+      width:100%;
+      display:flex;
+      overflow: hidden;
+      padding: 20px;
+    }
+    .mover{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        transition: 0.5s ease;
+        transform: translateX(25%);
+    }
+    .item{
+      min-width: 50%;
+      height: 100%;
+      filter: blur(5px);
+      transition: 0.5s ease;
+    }
+    .active{
+        z-index: 1;
+        filter: none;
+        transform: scale(1.1);
+    }
+    .blue{
+      background:blue;
+    }
+    .black{
+      background:black;
+    }
+    .green{
+      background:green;
+     }
