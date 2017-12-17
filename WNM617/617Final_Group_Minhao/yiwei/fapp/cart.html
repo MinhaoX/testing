@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <!-- bottom nav  -->
+    <div id="footer">
+        <div class="navbar col-xs-12 navbar-inverse navbar-fixed-bottom">
+            <div class="row" id="bottomNav">
+                <div class="navbar navItem col-xs-4 text-center">
+                    <a href="http://jiahuanma.com/sign_up/account.html">
+                        <img class="nav-icon" id="accountIcon" src="img/account_icon.svg" alt="">
+                    </a>
+                </div>
+                <div class="navbar navItem col-xs-4 text-center">
+                    <a href="http://xieminhao.com/AAU/WNM617/store_preview/store_preview.html">
+                        <img class="nav-icon" id="mainIcon" src="img/main_icon.svg" alt="">
+                    </a>
+                </div>
+                <div class="navbar navItem col-xs-4 text-center active">
+                    <a href="#">
+                        <img class="nav-icon" id="orderIcon" src="img/order_icon.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+	<!-- Page 1 -->
+	<div data-role="page" id="his">
+            <div data-role="header">
+             	<h1>Order</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#" class="ui-btn active">HISTORY</a></li>
+                        <li><a href="#fav">FAVORITE</a></li>
+                        <li><a href="#pic">PICKUP</a></li>
+                    </ul>
+                </div>
+            </div>
+<div class="page-wraper">
+            <div class="container">
+            	<div class="his1">
+            		<img src="img/whole-foods.jpg">
+            	</div>
+            	<div class="his1">
+            		<div class="order">
+            			<img src="img/asset4.png">
+            		</div>
+            		<div class="form">
+            			<h4>Order Form</h4>
+            			<p>Oct 24, 2017, 11:36 <br>
+						Order #D5DE5</p>
+            		</div>
+            	</div>
+
+            	<div class="his3"></div>
+
+            	<div class="his2">
+            		<div class="order1">
+            			<img src="img/asset5.png">
+            		</div>
+            		<div class="form">
+            			<p>Organic Apple</p>
+            		</div>
+            	</div>
+
+            	<div class="his2">
+            		<div class="order1">
+            			<img src="img/asset6.png">
+            		</div>
+            		<div class="form">
+            			<p>Organic Milk</p>
+            		</div>
+            	</div>
+
+            	<div class="his2">
+            		<div class="order1">
+            			<img src="img/asset7.png">
+            		</div>
+            		<div class="form">
+            			<p>Organic Coconut Water</p>
+            		</div>
+            	</div>
+
+            	<div class="his3"></div>
+
+            	<div class="his4">
+            		<h3>Total: $39.64</h3>
+            		<div class="btn">
+            			<button type="button" class="btn btn-success">REORDER</button> 
+            		</div>
+            	</div>
+
+            </div>
+
+
+            <div class="container">
+            	<div class="his3"></div>
+            	<div class="his1">
+            		<img src="img/costco.png">
+            	</div>
+            	<div class="his1">
+            		<div class="order">
+            			<img src="img/asset4.png">
+            		</div>
+            		<div class="form">
+            			<h4>Order Form</h4>
+            			<p>Oct 24, 2017, 11:36 <br>
+						Order #D5DE5</p>
+            		</div>
+            	</div>
+
+            	<div class="his3"></div>
+
+            	<div class="his2">
+            		<div class="order1">
+            			<img src="img/asset5.png">
+            		</div>
+            		<div class="form">
+            			<p>Organic Apple</p>
+            		</div>
+            	</div>
+
+            	<div class="his2">
+            		<div class="order1">
+            			<img src="img/asset6.png">
+            		</div>
+            		<div class="form">
+            			<p>Organic Milk</p>
+            		</div>
+            	</div>
+
+            	<div class="his2">
+            		<div class="order1">
+            			<img src="img/asset7.png">
+            		</div>
+            		<div class="form">
+            			<p>Organic Coconut Water</p>
+            		</div>
+            	</div>
+
+            	<div class="his3"></div>
+
+            	<div class="his4">
+            		<h3>Total: $39.64</h3>
+            		<div class="btn">
+            			<button type="button" class="btn btn-success">REORDER</button> 
+            		</div>
+            	</div>
+            </div>
+
+            <div class="container">
+            	<div class="his3"></div>
+            </div>
+           
+            <!-- <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#" class="ui-btn active"><img src="img/asset1.png"></a></li>
+                        <li><a href="#bar"><img src="img/asset2.png"></a></li>
+                        <li><a href="#"><img src="img/asset3.png"></a></li>
+                    </ul>
+                </div>
+            </div> -->
+    </div>
+</div>
+    <!-- Page 2 -->
+
+    <div data-role="page" id="fav">
+            <div data-role="header">
+             	<h1>Order</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#his" class="ui-btn active">HISTORY</a></li>
+                        <li><a href="#">FAVORITE</a></li>
+                        <li><a href="#pic">PICKUP</a></li>
+                    </ul>
+                </div>
+            </div>
+<div class="page-wraper">
+            <div class="container">
+            	<div class="favpage" id="con1">
+            		<div class="fav-img">
+            			<img src="img/apples.jpg">
+            		</div>
+            		<div class="fav-p">
+            			<div class="p1">
+            				<h4>Whole Foods Market<br>
+							(1200 Ocean Ave)</h4>
+            			</div>
+            			<div class="p1">
+            				<p>Oct 22, 2017, 16:14 <br>
+							4 Orders</p>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+
+            <div class="container">
+            	<div class="his3"></div>
+            </div>
+
+            <div class="container">
+            	<div class="favpage" id="con">
+            		<div class="fav-img">
+            			<img src="img/milk.jpg">
+            		</div>
+            		<div class="fav-p">
+            			<div class="p1">
+            				<h4>Whole Foods Market<br>
+							(1200 Ocean Ave)</h4>
+            			</div>
+            			<div class="p1">
+            				<p>Oct 08, 2017, 10:36 <br>
+							2 Orders</p>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+
+            <div class="container">
+            	<div class="his3"></div>
+            </div>
+
+            <div class="container">
+            	<div class="favpage" id="con">
+            		<div class="fav-img">
+            			<img src="img/coconut-water.jpg">
+            		</div>
+            		<div class="fav-p">
+            			<div class="p1">
+            				<h4>Whole Foods Market<br>
+							(1200 Ocean Ave)</h4>
+            			</div>
+            			<div class="p1">
+            				<p>Oct 17, 2017, 12:06 <br>
+							5 Orders</p>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+
+            <div class="container">
+            	<div class="his3"></div>
+            </div>
+
+            <div class="container">
+            	<div class="favpage" id="con">
+            		<div class="fav-img">
+            			<img src="img/cookie.jpg">
+            		</div>
+            		<div class="fav-p">
+            			<div class="p1">
+            				<h4>Whole Foods Market<br>
+							(1200 Ocean Ave)</h4>
+            			</div>
+            			<div class="p1">
+            				<p>Oct 10, 2017, 17:06 <br>
+							1 Order</p>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+
+            <div class="container">
+            	<div class="border"></div>
+            </div>
+
+
+
+            	
+           
+            <!-- <div data-role="footer" class="my-footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#" class="ui-btn active"><img src="img/asset1.png"></a></li>
+                        <li><a href="#bar"><img src="img/asset2.png"></a></li>
+                        <li><a href="#"><img src="img/asset3.png"></a></li>
+                    </ul>
+                </div>
+            </div> -->
+    </div>
+</div>
+
+
+	<!-- Page 3 -->
+
+    <div data-role="page" id="pic">
+            <div data-role="header">
+             	<h1>Order</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#his" class="ui-btn active">HISTORY</a></li>
+                        <li><a href="#fav">FAVORITE</a></li>
+                        <li><a href="#">PICKUP</a></li>
+                    </ul>
+                </div>
+            </div>
+<div class="page-wraper">
+            <div class="container">
+            	<div class="his1">
+            		<img src="img/whole-foods.jpg">
+            	</div>
+            	<div class="his1">
+            		<div class="order">
+            			<img src="img/asset4.png">
+            		</div>
+            		<div class="form">
+            			<h4>Order is packing</h4>
+            			<p>Order #D5DE5 <br>
+						Estimated pickup: 11:36</p>
+            		</div>
+            		<div class="border1"></div>
+            	</div>
+
+            	<div class="his3"></div>
+
+            	<div class="his2">
+            		<div class="order1">
+            			<img src="img/asset5.png">
+            		</div>
+            		<div class="form">
+            			<p>Organic Apple</p>
+            		</div>
+            	</div>
+
+            	<div class="his2">
+            		<div class="order1">
+            			<img src="img/asset6.png">
+            		</div>
+            		<div class="form">
+            			<p>Organic Milk</p>
+            		</div>
+            	</div>
+
+            	<div class="his2">
+            		<div class="order1">
+            			<img src="img/asset7.png">
+            		</div>
+            		<div class="form">
+            			<p>Organic Coconut Water</p>
+            		</div>
+            	</div>
+            </div>
+
+            <div class="container">
+            	<div class="border"></div>
+            </div>
+
+            	
+           
+            <!-- <div data-role="footer" class="my-footer">
+                <div data-role="navbar" class="my-tabbar">
+                    <ul>
+                        <li><a href="#" class="ui-btn active"><img src="img/asset1.png"></a></li>
+                        <li><a href="#bar"><img src="img/asset2.png"></a></li>
+                        <li><a href="#"><img src="img/asset3.png"></a></li>
+                    </ul>
+                </div>
+            </div> -->
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</body>
+</html>

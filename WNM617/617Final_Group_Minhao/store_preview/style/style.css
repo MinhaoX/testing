@@ -1,0 +1,459 @@
+.body {
+	padding-bottom: 70px;
+	background-color: #EFF0E9;
+
+}
+
+
+.nav-icon {
+	width: 30px;
+	height: 30px;
+}
+
+
+div#bottomNav.row {
+	position: sticky;
+	background-color: #5FA281;
+
+}
+
+.navItem {
+	padding: 15px;
+	margin: 0px;
+}
+
+div.active {
+	background-color: rgba(56, 56, 56, 0.31);
+}
+
+p.store-name-text {
+	font-size: 2.5em;
+}
+
+.background-shadow {
+	position: fixed;
+	z-index: -2;
+	bottom: 70px;
+	left: -35px;
+    width: 120vw;
+
+}
+
+.store-preview-page {
+	overflow: hidden;
+	z-index: 1;
+	position: relative;
+	margin-top: 10px;
+	width: 85vw;
+	height: 85vh;
+	position-top: 5px;
+	background-color: #19467F;
+	
+}
+
+#walgreen-img-container {
+	overflow: hidden;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+	background-image: url(http://xieminhao.com/AAU/WNM617/store_preview/img/walgreen_store.jpg);
+	background-size: 100% 100%;
+	-webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+}
+
+.store-preview-nav {
+	overflow: hidden;
+	position: sticky;
+	padding: 0px;
+	width: 100%;
+	height: 18%;
+	background-color: rgba(45, 45, 45, 0.58);
+	color: #EFF0E9;
+	margin: 0 auto;
+	
+}
+
+.side-nav-container-left {
+
+	height:100%;
+	width: 10%;
+}
+
+.navbar {
+	border: none;
+}
+
+
+
+img#side-nav-left {
+	position: fixed;
+	z-index: 2;
+	top: 40vh;
+	width: 10vw;
+	height: 10vh;
+}
+
+img#side-nav-right {
+	position: fixed;
+	z-index: 2;
+	top: 40vh;
+	left: 90vw;
+	width: 10vw;
+	height: 10vh;
+}
+
+img#go-shopping {
+	width: 15vw;
+	padding-left: 10px;
+
+}
+
+div.go-shopping {
+	text-decoration: none;
+	color: #EFF0E9;
+	text-align: center;
+	position: relative;
+	top: 30%;
+
+	padding: 0px;
+}
+
+div.go-shopping a {
+	text-decoration: none;
+	color:#EFF0E9;
+	padding: 0px;
+}
+
+div.container {
+	padding: 0px;
+	color: #EFF0E9;
+	text-shadow: none;
+}
+
+div.feature-content-wraper {
+	min-width: 100%;
+	padding: 5vw;
+	padding-bottom: 0px;
+}
+
+div.route {
+	background-color: #2D2D2D;
+	position: relative;
+	width: 106.25px;
+	height: 105px;
+}
+
+div.route img {
+	text-align: center;
+	position: relative;
+	top: 3vh;
+	left: 2vw;
+	width: 15vw;
+	height: auto;
+}
+
+div.feature-content-window {
+	position: sticky;
+	overflow: hidden;
+	width: 75vw;
+	height: 46vh;
+}
+
+
+.mover {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        transition: 0.5s ease;
+        transform: translateX(3%);
+}
+
+.slider-item {
+	  min-width: 50%;
+      height: 100%;
+      filter: blur(5px);
+      transition: 0.5s ease;
+      transform: scale(0.9);
+}
+
+.slider-active {
+	position: relative;
+    z-index: 1;
+    filter: none;
+    transform: scale(1);
+    
+}
+
+.slider{
+      height: 100%;
+      width:100%;
+      display:flex;
+      overflow: hidden;
+      padding: 20px;
+    }
+
+
+
+#walgreen-img-container-store {
+	overflow: hidden;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+	background-image: url(http://xieminhao.com/AAU/WNM617/store_preview/img/walgreen_store.jpg);
+	background-size: 100% 100%;
+	-webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+}
+
+
+span.nav-item {
+	display: inline-block;
+  	padding: 12px 16px 13px;
+	background-color: #3581BA;
+  &:not(:last-child) {
+    border-right: 1px solid rgba(#727c87, 0.2);
+  }
+}
+
+.h-scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+.store-back-btn img {
+	position: relative;
+	top: 5vh;
+	left: 2vw;
+	width: 5vw;
+	height:5vh;
+
+}
+
+.store-sub-nav {
+	height: 6vh;
+	padding: 0;
+	margin: 0px;
+}
+
+.store-back-btn {
+	display: inline-block;
+	width: 15vw;
+	height: 15vh;
+}
+
+.store-page-header {
+	overflow: hidden;
+	height: 15vh;
+}
+
+.store-page-header a {
+	background-color: rgba(22, 22, 22, 0.4); 
+}
+
+.store-name-wraper {
+	text-align: center;
+	height: 15vh;
+}
+
+.est-text {
+	font-size: 0.8em;
+	color: #999998;
+}
+
+.store-name-wraper hr {
+	margin:0px;
+	padding-bottom: 5px;
+
+}
+
+.store-name-text {
+	margin: 0px;
+	padding: 10px;
+}
+
+.store-page-browse-window {
+	overflow-y: auto;
+	display: inline-block;
+	background-color: #EFF0E9;
+	position: sticky;
+	z-index: 0;
+	width: 100%;
+	height: 69vh;
+}
+
+.store-item-list {
+	margin-top: 30px;
+	color: #424240;
+	white-space: normal;
+  	overflow-y: scroll;
+ 	-webkit-overflow-scrolling: touch;
+ 	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.store-item {
+	overflow: hidden;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.store-item-image {
+	min-width: 115px;
+	min-height: 115px;
+	background-color: #1D5290;
+	padding: 0px;
+}
+
+
+.store-item-list hr {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    
+    padding: 0; 
+	margin-top: 0px;
+}
+
+span.store-item-price {
+	padding-top: 10vh;
+	float: right;
+}
+
+/*pop up add to cart*/
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+
+.popup .content {
+	min-height: 80%;
+}
+
+@media screen and (max-width: 700px){
+
+  .popup{
+  	padding: 0px;
+    width: 80%;
+  }
+}
+
+div.item-add-card {
+	padding-top: 15vh;
+	padding-bottom: 5vh;
+	text-align: center;
+	font-size: 1em;
+	color: #424240;
+}
+
+div.item-add-image img {
+	position: relative;
+	height: 20vh;
+}
+
+div.item-add-image {
+	text-align: center;	
+}
+
+a.popup-btn {
+	width: 345px;
+	height: 115px;
+}
+
+div.item-add-price {
+	font-size: 1.5em;
+	padding-top: 5vh;
+}
+
+button.add-to-cart-btn {
+	position: sticky;
+	height: 10vh;
+	width: 100%;
+}
+
+.cart-close {
+	position: absolute;
+	top: -30px;
+  	right: 0px;
+  	transition: all 200ms;
+  	font-size: 30px;
+    font-weight: bold;
+  	text-decoration: none;
+  	color: #555;
+}
+
+.checkout-btn {
+	display: inline-block;
+	background-color: #3fc181;
+	height: 5vh;
+	position: fixed;
+	bottom: 6vh;
+}
+
+.checkout-btn span{
+	text-align: center;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+.store-text-checkout {
+	padding-top: 3vh;
+}
+
+.popup-btn {
+	position: relative;
+	z-index: 3;
+}

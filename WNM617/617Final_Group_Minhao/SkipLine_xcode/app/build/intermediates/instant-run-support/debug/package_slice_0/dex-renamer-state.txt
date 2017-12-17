@@ -1,0 +1,4 @@
+#Sat Dec 09 18:21:14 PST 2017
+base.0=/Users/minhaoxie/AndroidStudioProjects/SkipLine/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/minhaoxie/AndroidStudioProjects/SkipLine/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
